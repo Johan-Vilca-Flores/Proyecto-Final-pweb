@@ -127,7 +127,7 @@
 | pay | Numerico| No | Si | Ninguno | Nombre |
 ##  Diagrama Entidad-Relación
 
- <td style="width:15%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/MOdelo%20de%20identidad.png?raw=true" alt="EPIS" style="width:60%/> </td>  
+
 
 ##  Administración con Django
 
