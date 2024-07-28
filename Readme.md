@@ -130,11 +130,9 @@
      
 ##  Administración con Django
     Se muestran el uso de Django en la aplicacion 
-<td style="width:15%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/Django.jpg? 
-   raw=true" alt="EPIS" style="width:70%/></td>    
+<td style="width:15%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/Django.jpg?raw=true" alt="EPIS" style="width:70%/></td>    
 
-     
-
+       
 ##  Plantillas Bootstrap
     Se seleccionó la siguiente plantilla para el usuario final (No administrador).
 
