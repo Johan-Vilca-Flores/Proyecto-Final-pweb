@@ -127,22 +127,20 @@
 | pay | Numerico| No | Si | Ninguno | Nombre |
 ##  Diagrama Entidad-Relación
  <td style="width:15%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/MOdelo%20de%20identidad.png?raw=true" alt="EPIS" style="width:60%/> </td>  
-     
+
 ##  Administración con Django
     Se muestran el uso de Django en la aplicacion 
-<td style="width:15%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/Django.jpg?raw=true" alt="EPIS" style="width:70%/></td>    
+<td style="width:15%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/Django.jpg?raw=true" alt="EPIS" style="width:70%/> </td>    
 
-       
+    
 ##  Plantillas Bootstrap
     Se seleccionó la siguiente plantilla para el usuario final (No administrador).
 
     Demo online:
     URL: concesionario.systes.net
-
     Se muestran las actividades realizadas para adecuación de plantillas, vistas, formularios en Django.
-    ...
 
-##  CRUD - Core Business - Clientes finales
+**##  CRUD - Core Business - Clientes finales**
     El núcleo de negocio del sistema de inscripciones tiene valor de aceptación para los cliente finales (alumnos) radica en realizar el proceso de inscripción propiamente, que empieza desde que:
     1. El alumno inicia sesión.
     2. El alumno selecciona el o los cursos donde desea realizar una inscripción.
@@ -155,7 +153,7 @@
     A continuación se muestran las actividades realizadas para su construcción:
     ...
 
-##  Servicios mediante una API RESTful
+**##  Servicios mediante una API RESTful**
     Se ha creado una aplicación que pondra a disposición cierta información para ser consumida por otros clientes HTTP.
     1. GET : Con el método get se devolverá la lista de cursos, grupos y horarios establecidos para que el alumno sobre todo vea esta información en cualquier otro medio. En formato JSON. 
     2. POST : Con este método se enviara el código del alumno y se devolvera sus inscripciones. En formato JSON.
@@ -164,7 +162,7 @@
     Se especifican los pasos para crear el servicio RestFul
     ...
 
-##  Operaciones asíncronas AJAX
+**##  Operaciones asíncronas AJAX**
     Se propone el uso de AJAX para realizar la asignación de carga académica a los docentes que estan registrados. Esta operación la realizará el usuario operador encargado por el DAISI.
     Se muestran los pasos necesarios a realizar.
     ....
@@ -185,7 +183,7 @@ Video 05- ...
 
 
 
-## REFERENCIAS
+**## REFERENCIAS**
 -   
 
 #
