@@ -39,8 +39,8 @@
         <td>SEMESTRE:</td><td>III</td>
     </tr>
     <tr>
-        <td>FECHA INICIO:</td><td>31-Jul-2023</td><td>FECHA FIN:</td>
-        <td>06-Ago-2023</td><td>DURACIÓN:</td><td>04 horas</td>
+        <td>FECHA INICIO:</td><td>16-Jul-2024</td><td>FECHA FIN:</td>
+        <td>28-Jul-2024</td><td>DURACIÓN:</td><td>04 horas</td>
     </tr>
     <tr>
         <td colspan="3">Estudiantes:
@@ -73,49 +73,71 @@
 
     - RQ01 : El sistema debe estar disponible en Internet a traves de una URL.
     - RQ02 : El sistema debe permitir el inicio/cierre de sesión.
-    - RQ03 : El sistema debe permitir gestionar el año académico, cursos, profesores y las asignaciones de carga académica.
-    -   ...
+    - RQ03 : El sistema debe permitir gestionar compradores, autos y usuarios.
 
 ##  Modelo de datos
     El modelo de datos esta conformado por las siguientes entidades.
 
-    -   Curso : En esta entidad se almacena la información de los cursos o asignaturas que se imparten en una Escuela Profesional. Ejemplo: Programación Web 2, III semestre, 02 horas teóricas, 04 horas de laboratorio, etc..
-    -   Profesor : En esta entidad se almacena los datos de los profesores que se responsabilizan del avance académico en la enseñanza de los temas planificados en cada curso. Ejemplo: Richart Escobedo, rescobedoq@unsa.edu.pe, Magister, etc.
+    -  Concensionarios:En esta entidad se almacena los datos de los clientes que se responsabilizan para la 
+         futura compra de autos o de un bien .
+    -  Ventas : En esta identidad se almacena la forma de pago que se realizara y sobre la informacionb de la 
+        marca y el modelo que esta selccionando para comprar. 
 
-    ...
-
+    -   Clientes: En esta identidad se almacena los datos de los usarios para el futuro registro de la base de 
+          datos a la vez los responsables para realizar cualquier compra.
+    
+    -   Vendedores: En esta identidad se almacena los datos de los usarios para el futuro registro de la base 
+           de datos para realizar la venta.
+           
+    -   Pago:  En esta identidad se almacena los diferentes tipos de medio de pago.
+   
 ##  Diccionario de datos
 
     En la construcción de software y en el diccionario de datos sobre todo se recomienda y se utilizará el idioma inglés para especificar objetos, atributos, etc.
 
-| Course | | | | | |
+| Concensionarios | | | | | |
 | -- | -- | -- | -- | -- | -- |
 | Atributo  | Tipo  | Nulo | Clave | Predeterminado | Descripción |
 | code  | Numerico| No | Si | Ninguno | Código |
 | name  | Cadena| No | No | Ninguno | Nombre |
-...
 
-| Teacher | | | | | |
+|Clientes | | | | | |
 | -- | -- | -- | -- | -- | -- |
 | Atributo  | Tipo  | Nulo | Clave | Predeterminado | Descripción |
 | code  | Numerico| No | Si | Ninguno | Código |
-| name | Cadena| No | No | Ninguno | Nombres |
+| nombre| Cadena| No | No | Ninguno | Nombres |
+| usuario | Cadena| No | Si | Ninguno | Nombres |
+| contraseña| Cadena| No | Si | Ninguno | Nombres |
 | email | Cadena| No | No | Ninguno | Correo electrónico |
-| gender | Fecha| Si | No | NULL | Fecha de nacimiento |
-...
 
+| Vendedores| | | | | |
+| -- | -- | -- | -- | -- | -- |
+| Atributo  | Tipo  | Nulo | Clave | Predeterminado | Descripción |
+| code  | Numerico| No | Si | Ninguno | Código |
+| nombre | Cadena| No | No | Ninguno | Nombres |
+| usuario | Cadena| No | Si | Ninguno | Nombres |
+| contraseña| Cadena| No | Si | Ninguno | Nombres |
+| email | Cadena| No | No | Ninguno | Correo electrónico |
+
+| Ventas | | | | | |
+| -- | -- | -- | -- | -- | -- |
+| Atributo  | Tipo  | Nulo | Clave | Predeterminado | Descripción |
+| brands | Cadena| No | No | Ninguno | Nombre |
+| brands | Cadena| No | No | Ninguno | Nombre |
+| pay | Numerico| No | Si | Ninguno | Nombre |
 ##  Diagrama Entidad-Relación
-    ...
+<td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/MOdelo%20de%20identidad.png?raw=true" alt="EPIS" style="width:80%    </td> 
 
 ##  Administración con Django
-    Se muestran los pasos realizados para crear el Proyecto, la aplicación, creacion de modelos, migraciones y habilitación del panel de administración en Django.
-    ...
+    Se muestran el uso de Django en la aplicacion 
+   <td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/Django.jpg?raw=true" alt="EPIS" style="width:80%    </td> 
+      <td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/django.jpg?raw=true" alt="EPIS" style="width:80%    </td> 
 
 ##  Plantillas Bootstrap
     Se seleccionó la siguiente plantilla para el usuario final (No administrador).
 
     Demo online:
-    URL: ...
+    URL: concesionario.systes.net
 
     Se muestran las actividades realizadas para adecuación de plantillas, vistas, formularios en Django.
     ...
@@ -147,11 +169,7 @@
     Se muestran los pasos necesarios a realizar.
     ....
 
-##  Investigación: Email, Upload.
-    - Email: Se utilizará la funcionalidad del uso de envío de correos electrónicos cuando el proceso de inscripciones culmine y al profesor le llegue la lista de alumnos inscritos en sus grupos a cargo.
-    - Upload: Se utilizará esta funcionalidad para subír, archivos CSV para importar y exportar información en el sistema.
-    Se muestran los pasos realizados para su funcionamiento correcto.
-    ...
+
 
 Github del proyecto:
 
@@ -159,9 +177,12 @@ URL en Heroku:
 
 URL Playlist YouTube.
 Producción de un PlayList en Youtube explicando cada una de los requerimientos.
-Video 01 - Sistema - Requisitos.
-Video 02 - Modelo de datos - DD - DER.
-etc…
+Video 01 -....
+Video 02 - ...
+Video 03 - ...
+Video 04 - ...
+Video 05- ...
+
 
 
 ## REFERENCIAS
