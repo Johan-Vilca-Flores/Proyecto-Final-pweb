@@ -16,7 +16,7 @@
         <td colspan="2"><span style="font-weight:bold;">Proyecto web</span>: Desarrollo de una aplicación web para inscripción de laboratorios</td>
         </tr>
         <tr>
-        <td colspan="2"><span style="font-weight:bold;">Fecha</span>:  2022/08/09</td>
+        <td colspan="2"><span style="font-weight:bold;">Fecha</span>:  2024/07/28</td>
         </tr>
     </tbody>
 </table>
@@ -43,9 +43,10 @@
         <td>06-Ago-2023</td><td>DURACIÓN:</td><td>04 horas</td>
     </tr>
     <tr>
-        <td colspan="3">DOCENTES:
+        <td colspan="3">Estudiantes:
         <ul>
-        <li>Richart Smith Escobedo Quispe - rescobedoq@unsa.edu.pe</li>
+        <li>Johan Vilca Flores - Jvilcafl@usna.edu.pe</li>
+        <li>Jael Emerson Huarca Pallani - jhuarcap@unsa.edu.pe</li>
         </ul>
         </td>
     </<tr>
