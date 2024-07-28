@@ -23,7 +23,7 @@
 </div>
 
 <div align="center">
-<span style="font-weight:bold;">PROYECTO WEB</span><br />
+<span style="font-weight:bold;">CarConnect: Desarrollo de Aplicación Web para Concesionarios</span><br />
 </div>
 
 
