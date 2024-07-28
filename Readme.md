@@ -128,7 +128,7 @@
 
     Se muestran el uso de Django en la aplicacion   
 <tr>
-<td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/img/MOdelo%20de%20identidad.png?raw=true" alt="EPIS" style="width:80%; height:auto"/></td>
+<td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/modelo.png?raw=true" alt="EPIS" style="width:80%; height:auto"/></td>
 </tr>
     
 ##  Plantillas Bootstrap
