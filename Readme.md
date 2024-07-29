@@ -121,35 +121,38 @@
 | brands | Cadena| No | No | Ninguno | Nombre |
 | pay | Numerico| No | Si | Ninguno | Nombre |
 ##  Diagrama Entidad-Relación
-
-
-
-##  Administración con Django
-
     Se muestran el uso de Django en la aplicacion   
 <tr>
 <td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/modelo.png?raw=true" alt="EPIS" style="width:80%; height:auto"/></td>
 </tr>
-    
-##  Plantillas Bootstrap
-    Se seleccionó la siguiente plantilla para el usuario final (No administrador).
 
-    Demo online:
-    URL: concesionario.systes.net
+##  Plantillas Bootstrap
+    Se seleccionó la siguiente plantilla de Django para el usuario  (No administrador).
+<tr>
+<td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/BOOSTSRAP.JPG.png?raw=true" alt="EPIS" style="width:80%; height:auto"/></td>     
+</tr>
+
     Se muestran las actividades realizadas para adecuación de plantillas, vistas, formularios en Django.
+    URL: concesionario.systes.net
 
 **##  CRUD - Core Business - Clientes finales**
     El núcleo de negocio del sistema de inscripciones tiene valor de aceptación para los cliente finales (alumnos) radica en realizar el proceso de inscripción propiamente, que empieza desde que:
-    1. El alumno inicia sesión.
-    2. El alumno selecciona el o los cursos donde desea realizar una inscripción.
-    3. El alumno selecciona el grupo de laboatorio donde desea incribirse.
-    4. El alumno puede tener la posibilidad de anular una incripción por varias razones: cambio de grupo, corregir error, etc.
-    5. El alumno puede ver el consolidado de sus inscripciones.
-    6. El alumno cierra sesión.
+    1. El Usuario  inicia sesión.
+    2. El Usuario como administrador selecciona los diferentes modos que tiene como son vendedor o comprador.
+    4. El Usuario puede tener la posibilidad de anular una venta o modificar los compradores  por varias razones:  erros al escribir el nombre ,error del monto.
+    5. El Usuario puede aumentar marcas y  eliminar.
+    6. El Usuario cierra sesión.
 
-    Todas y cada una de estas pantallas debe funcionar en la plantilla bootstrap.
-    A continuación se muestran las actividades realizadas para su construcción:
-    ...
+    <tr>
+<td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/BOOSTSRAP.JPG.png?raw=true" alt="EPIS" style="width:80%; height:auto"/></td> 
+
+
+
+
+
+</tr>
+
+    
 
 **##  Servicios mediante una API RESTful**
     Se ha creado una aplicación que pondra a disposición cierta información para ser consumida por otros clientes HTTP.
@@ -173,11 +176,11 @@ URL en Heroku:
 
 URL Playlist YouTube.
 Producción de un PlayList en Youtube explicando cada una de los requerimientos.
-Video 01 -....
-Video 02 - ...
-Video 03 - ...
-Video 04 - ...
-Video 05- ...
+Video 01 - https://youtu.be/bToiVIPGEFA?si=juqEx1YKwhx8OMDk
+Video 02 - https://youtu.be/4_tiMgy8kuQ?si=YLi_Tj3dRSAFNV6Z
+Video 03 - https://youtu.be/f9ahg5PYDbA?si=Q4BAOkvaYYbMZuSr
+Video 04 - https://youtu.be/32Y6bAwTf0g?si=1N7hZEV-9t306lPi
+Video 05-  https://youtu.be/w9Frsw2wsXo?si=M5Bn0Wvn5DLGl6ox
 
 
 
