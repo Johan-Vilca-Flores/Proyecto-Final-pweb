@@ -133,7 +133,7 @@
 </tr>
 
     Se muestran las actividades realizadas para adecuación de plantillas, vistas, formularios en Django.
-    URL: concesionario.systes.net
+    URL: **https://concesionario.sytes.net/admin/**
 
 **##  CRUD - Core Business - Clientes finales**
     El núcleo de negocio del sistema de inscripciones tiene valor de aceptación para los cliente finales (alumnos) radica en realizar el proceso de inscripción propiamente, que empieza desde que:
@@ -194,9 +194,13 @@
 </tr>
 
 Github del proyecto:
+
 **https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb.git**
+
 URL Playlist YouTube.
+
 Producción de un PlayList en Youtube explicando cada una de los requerimientos.
+
 Video 01 - https://youtu.be/bToiVIPGEFA?si=juqEx1YKwhx8OMDk
 
 Video 02 - https://youtu.be/4_tiMgy8kuQ?si=YLi_Tj3dRSAFNV6Z
@@ -211,8 +215,10 @@ Video 05-  https://youtu.be/w9Frsw2wsXo?si=M5Bn0Wvn5DLGl6ox
 
 
 ## REFERENCIAS
--https://www.djangoproject.com/
--
+- https://www.djangoproject.com/
+- https://gunicorn.org/
+- https://certbot.eff.org/
+- https://www.noip.com/
 
 
 [license]: https://img.shields.io/github/license/rescobedoq/pw2?label=rescobedoq
