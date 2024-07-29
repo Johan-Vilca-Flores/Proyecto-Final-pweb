@@ -40,7 +40,7 @@
     <tr>
         <td colspan="3">Estudiantes:
         <ul>
-        <li>Johan Vilca Flores - Jvilcafl@usna.edu.pe</li>
+        <li>Johan Vilca Flores - Jvilcafl@unsa.edu.pe</li>
         <li>Jael Emerson Huarca Pallani - jhuarcap@unsa.edu.pe</li>
         </ul>
         </td>
