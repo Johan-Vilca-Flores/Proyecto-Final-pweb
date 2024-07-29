@@ -145,49 +145,75 @@
 
     <tr>
 <td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/BOOSTSRAP.JPG.png?raw=true" alt="EPIS" style="width:80%; height:auto"/></td> 
+  Se muestra la captura para ingresar al sistema
+  
+<td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/carModels.png?raw=true" alt="EPIS" style="width:80%; height:auto"/></td> 
+   Se muestra la captura para ingresar los modelos de los carros
+   
+<td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/delet_car.png?raw=true" alt="EPIS" style="width:80%; height:auto"/></td> 
+   Se muestra la captura para elimnar los carros
 
 
+   <td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/Customers.png?raw=true" alt="EPIS" style="width:80%; height:auto"/></td> 
+   Se muestra la captura para los ingresar los clientes 
+   
+   <td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/delet_exit.png?raw=true" alt="EPIS" style="width:80%; height:auto"/></td> 
+   Se muestra la captura de los clientes eliminados
+   
+<td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/Pays.png?raw=true" alt="EPIS" style="width:80%; height:auto"/></td> 
+   Se muestra la captura para agregar los pagos 
 
+   <td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/delet_pays.png?raw=true" alt="EPIS" style="width:80%; height:auto"/></td> 
+   Se muestra la captura para eliminar los pagos 
 
+   <td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/sellers.png?raw=true" alt="EPIS" style="width:80%; height:auto"/></td> 
+   Se muestra la captura ingresando vendedores
 
+   <td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/delet_sellrs.png?raw=true" alt="EPIS" style="width:80%; height:auto"/></td> 
+   Se muestra la captura de eliminar vendedores
 </tr>
 
-    
-
-**##  Servicios mediante una API RESTful**
+##  Servicios mediante una API RESTful
     Se ha creado una aplicación que pondra a disposición cierta información para ser consumida por otros clientes HTTP.
-    1. GET : Con el método get se devolverá la lista de cursos, grupos y horarios establecidos para que el alumno sobre todo vea esta información en cualquier otro medio. En formato JSON. 
-    2. POST : Con este método se enviara el código del alumno y se devolvera sus inscripciones. En formato JSON.
     
-    Ejemplo: Prueba en Página web, aplicación móvil, PDF, etc.
-    Se especifican los pasos para crear el servicio RestFul
-    ...
+<tr>
+<td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/instancia.VM.jpeg?raw=true" alt="EPIS" style="width:80%; height:auto"/></td> 
+  Se muestra la captura de la instancia de VM
+    
+  <td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/ssh.jpeg?raw=true" alt="EPIS" style="width:80%; height:auto"/></td> 
+  Se muestra la captura del cmd de nuestra maquina virtual con los archivos subidos a la nube
 
-**##  Operaciones asíncronas AJAX**
-    Se propone el uso de AJAX para realizar la asignación de carga académica a los docentes que estan registrados. Esta operación la realizará el usuario operador encargado por el DAISI.
-    Se muestran los pasos necesarios a realizar.
-    ....
+  <td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/ngnix.jpeg?raw=true" alt="EPIS" style="width:80%; height:auto"/></td> 
+  Se muestra la captura utilizando nginx en nuestro proyecto
 
+  <td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/gunicorn.jpeg?raw=true" alt="EPIS" style="width:80%; height:auto"/></td> 
+  Se muestra la captura de utilizando gunicorn
 
+  <td style="width:25%;"><img src="https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb/blob/main/img/admin.png?raw=true" alt="EPIS" style="width:80%; height:auto"/></td> 
+  Se muestra la captura de la instancia en el computador
+</tr>
 
 Github del proyecto:
-
-URL en Heroku:
-
+**https://github.com/Johan-Vilca-Flores/Proyecto-Final-pweb.git**
 URL Playlist YouTube.
 Producción de un PlayList en Youtube explicando cada una de los requerimientos.
 Video 01 - https://youtu.be/bToiVIPGEFA?si=juqEx1YKwhx8OMDk
+
 Video 02 - https://youtu.be/4_tiMgy8kuQ?si=YLi_Tj3dRSAFNV6Z
+
 Video 03 - https://youtu.be/f9ahg5PYDbA?si=Q4BAOkvaYYbMZuSr
+
 Video 04 - https://youtu.be/32Y6bAwTf0g?si=1N7hZEV-9t306lPi
+
 Video 05-  https://youtu.be/w9Frsw2wsXo?si=M5Bn0Wvn5DLGl6ox
 
 
 
-**## REFERENCIAS**
--   
 
-#
+## REFERENCIAS
+-https://www.djangoproject.com/
+-
+
 
 [license]: https://img.shields.io/github/license/rescobedoq/pw2?label=rescobedoq
 [license-file]: https://github.com/rescobedoq/pw2/blob/main/LICENSE
