@@ -137,7 +137,7 @@
 
 **##  CRUD - Core Business - Clientes finales**
     El núcleo de negocio del sistema de inscripciones tiene valor de aceptación para los cliente finales (alumnos) radica en realizar el proceso de inscripción propiamente, que empieza desde que:
-    1. El Usuario  inicia sesión.
+    1. El Usuario  inicia sesión con el usuario:admin y contraseña:12345678
     2. El Usuario como administrador selecciona los diferentes modos que tiene como son vendedor o comprador.
     4. El Usuario puede tener la posibilidad de anular una venta o modificar los compradores  por varias razones:  erros al escribir el nombre ,error del monto.
     5. El Usuario puede aumentar marcas y  eliminar.
